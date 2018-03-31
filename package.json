@@ -1,0 +1,13 @@
+{
+  "name": "check_node",
+  "version": "1.0.0",
+  "main": "app.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "yargs": "^11.0.0"
+  }
+}

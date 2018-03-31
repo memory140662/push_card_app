@@ -1,0 +1,14 @@
+{
+    "url": "https://femashr-app-api.femascloud.com/",
+    "apiUrl": "/fsapi/V1/",
+    "action": {
+        "login": "login.json",
+        "pushCardQuery": "punch_card_query.json",
+        "pushCard": "punch_card.json"
+    },
+    "location": {
+        "latitude": "25.073691",
+        "longitude": "121.575602"
+    },
+    "companyName": "techlink"
+}
