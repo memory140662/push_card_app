@@ -3,7 +3,7 @@
 
 ### 步驟
 
-<p>下載專案後，須先執行<code>npm i</code>來注入需使用之模組，而後執行<code>node app.js [指令]。</code></p>
+<p>下載專案後，須先執行<code>npm i</code>來注入需使用之模組，而後執行<code>node app.js [指令]</code>。</p>
 
 ***
 ### 指令
