@@ -60,7 +60,7 @@ switch (action) {
         pushCard.login().then(pc => pc.checkIn())
         .then(status => {
             console.log(`Check in ${status}`);
-            return process.exit(0);
+            process.exit(0);
         })
         .catch(err => {
             console.error(`Check in fail. (${err.message})`);
