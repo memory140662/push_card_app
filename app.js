@@ -1,5 +1,5 @@
 const yargs = require('yargs');
-const PushCard = require('./module/PushCard').PushCard;
+const PushCard = require('./models/PushCard').PushCard;
 
 const argv = yargs.options({
     a: {

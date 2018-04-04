@@ -1,4 +1,4 @@
-const axios = require('axios').default;
+let axios = require('axios').default;
 const data = require('../data.json');
 
 class PushCard {
@@ -35,8 +35,7 @@ class PushCard {
             res = await axios.post(queryUrl, queryData);
             const { buttons } = res.data.response;
             if (buttons) {
-                this.actions = [];
-                buttons.forEach(button => this.actions.push(button.value));
+                this.actions = buttons.map(({value}) => value);
             }
             return this;
         } catch (e) {
